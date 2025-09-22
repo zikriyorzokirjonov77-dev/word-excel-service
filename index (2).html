@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Komp'yuter Xizmati — Word & Excel</title>
+  <meta name="description" content="Word va Excel bo'yicha xizmatlar: hujjat tayyorlash, tahrir, jadval ishlash. Tez, arzon va ishonchli.">
+  <style>
+    :root{ --bg:#0f1724; --card:#0b1220; --accent:#06b6d4; --muted:#9aa5b1; --glass: rgba(255,255,255,0.03);} 
+    *{box-sizing:border-box}
+    body{font-family:Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:linear-gradient(180deg,#061026 0%, #071427 100%); color:#e6eef6;}
+    .container{max-width:1000px;margin:40px auto;padding:20px}
+    header{display:flex;align-items:center;gap:16px}
+    .logo{width:64px;height:64px;border-radius:12px;background:var(--glass);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent);font-size:22px}
+    .brand h1{margin:0;font-size:20px}
+    .brand p{margin:0;color:var(--muted);font-size:13px}
+
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:28px;margin-top:28px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;padding:22px;box-shadow:0 6px 30px rgba(2,6,23,0.6)}
+    .hero h2{margin:6px 0 10px;font-size:28px}
+    .hero p.lead{color:var(--muted);margin:0 0 16px}
+    .services{display:flex;flex-direction:column;gap:8px;margin-top:12px}
+    .service{display:flex;gap:12px;align-items:flex-start}
+    .dot{width:10px;height:10px;border-radius:3px;background:var(--accent);margin-top:6px}
+
+    .cta{display:flex;gap:12px;margin-top:18px}
+    .btn{padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600;display:inline-flex;align-items:center;gap:8px}
+    .btn-primary{background:var(--accent);color:#042026}
+    .btn-outline{border:1px solid rgba(255,255,255,0.06);color:inherit;background:transparent}
+
+    .prices{margin-top:14px;color:var(--muted);font-size:14px}
+
+    aside .contact{display:flex;flex-direction:column;gap:10px}
+    .contact .box{background:rgba(255,255,255,0.02);padding:12px;border-radius:10px}
+    .contact a{display:block;text-decoration:none;color:inherit}
+
+    footer{margin-top:28px;padding:18px;text-align:center;color:var(--muted);font-size:13px}
+
+    /* responsive */
+    @media(max-width:900px){
+      .hero{grid-template-columns:1fr}
+      .container{margin:20px;padding:16px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">KX</div>
+      <div class="brand">
+        <h1>Komp'yuter Xizmati — Word & Excel</h1>
+        <p>Tez va ishonchli hujjat tayyorlash va jadval ishlash</p>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="card">
+        <h2>Hujjat va jadval bo‘yicha yordam — tez, tushunarli, arzon</h2>
+        <p class="lead">Siz uchun professional Word hujjatlari, formatlash, shablonlar va Excel formulalari, analizlar hamda diagrammalar tayyorlayman. Ish namunalarini ham ko'rsataman.</p>
+
+        <div class="services">
+          <div class="service"><div class="dot"></div><div><strong>Word hujjat yaratish</strong><div class="muted">Resume, shartnoma, hisobot, prezentatsiya tayyorlash.</div></div></div>
+          <div class="service"><div class="dot"></div><div><strong>Excel</strong><div class="muted">Formulalar, pivot, grafiklar, ma'lumotlarni tozalash.</div></div></div>
+          <div class="service"><div class="dot"></div><div><strong>Tezkor tahrir</strong><div class="muted">Tez va aniq tahrir, grammatik va format tekshiruv.</div></div></div>
+        </div>
+
+        <div class="cta">
+          <a class="btn btn-primary" href="https://wa.me/998978128777" target="_blank">WhatsApp bilan bog'lan</a>
+          <a class="btn btn-outline" href="https://t.me/Zikriyor_77" target="_blank">Telegram orqali</a>
+        </div>
+
+        <div class="prices">
+          Boshlang'ich paket: <strong>20,000 UZS</strong> — kichik hujjatlar. <br>
+          Maxsus paketlar va chekinmalar mavjud — bog'lanib ma'lumot oling.
+        </div>
+      </div>
+
+      <aside>
+        <div class="card contact">
+          <div class="box">
+            <strong>Tez aloqaga chiqish</strong>
+            <div style="margin-top:8px;color:var(--muted);font-size:14px">Telefon: <a href="tel:+998978128777">+998978128777</a></div>
+            <div style="margin-top:6px;color:var(--muted);font-size:14px">Telegram: <a href="https://t.me/Zikriyor_77" target="_blank">@Zikriyor_77</a></div>
+          </div>
+
+          <div class="box" style="margin-top:10px">
+            <strong>Qanday ishlayman</strong>
+            <ol style="margin:8px 0 0 18px;color:var(--muted);font-size:14px">
+              <li>Muvaffaqiyatli talabni oldinroq muhokama qilamiz.</li>
+              <li>Ish namunasi yuboraman — 1-2 kun ichida.</li>
+              <li>To‘lov: oldindan yoki ish tugagach (qoida bilan kelishamiz).</li>
+            </ol>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <footer class="card">
+      © <span id="year"></span> Komp'yuter Xizmati — Word & Excel. Kontaktlar orqali bog'laning.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
